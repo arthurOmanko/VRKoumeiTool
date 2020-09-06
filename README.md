@@ -2,9 +2,9 @@
 
 This mod is one improving existing Vrboop.dll which makes grabbing and touching breasts of females enabled on VR.
 This functions on VR controllers are as below,
+- generate wind
 - grabbing and touching breasts, hips, hairs, skirts or items with dynamicBones etc.
 - rumbling on grabbing and touching
-- generate wind
 - change chara's clothes or accessories along your sight
 - strip female's cloth
 - change lights color
