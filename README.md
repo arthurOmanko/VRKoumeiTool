@@ -21,7 +21,7 @@ This mod is one improving existing Vrboop.dll, which makes grabbing and touching
 - Setting:      
   -- ${GameFolder}\Plugins\VRKouemiTool\VRKoumeiToolConfig.xml   --- settings for VRKoumeiTool.dll  
 
-## Modes & Controls
+## [Modes & Controls]
 
 ## Tools
 
