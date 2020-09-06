@@ -4,8 +4,8 @@ This mod is one improving existing Vrboop.dll, which makes grabbing and touching
 
 ## [Installation]
 1. Extract the zip file into User's HoneySelect directory.
-2. Run (HoneySelect|StudioNEO)_(64|32)_for_VR_with_IBL
-3. Enjoy super high quality on VR!
+2. Run your Game execution file with --vr optino. 
+3. Enjoy new functions on VR!
 
 **Caution!** 
 - This mod might rewrite some existing files and cause some bugs depending on User's environment.
