@@ -32,57 +32,17 @@ These tools are mainly meant to be used in *standing mode* but some of them are 
 ### VRKoumeiTool (seated / standing)
 ![preview](https://user-images.githubusercontent.com/68005887/92324350-d72e4980-f07b-11ea-9ac0-073b22da5fe8.png)
 
-#### UI/UX abstract on Menu
-Tag      |  Move   | 
-----     | ------  | 
-only one hand needed
-<kbd>trackpad</kbd>+<kbd>move</kbd> | move mouse cursor
-<kbd>trigger</kbd> | click mouse cursor
-<kbd>menu</kbd> | display menu
-<kbd>grip</kbd> | put GUI or grab put GUI
-both hands needed
-<kbd>trigger</kbd>+<kbd>trigger</kbd> | resize put GUI.
-
-### Warp Tool (standing)
-![warp_tool](https://user-images.githubusercontent.com/68005887/89115946-358a6a00-d4c9-11ea-87b0-ba7e6088070a.png)  
-
-The *warp tool* is only available in room scale mode and allows you to jump around in the scene.
-
-#### Warping
-
-In order to warp, touch the trackpad, choose your position and press. While touching the trackpad you are able to see:
-
-1. Where you will warp to
-2. Your play area
-3. A HMD that further shows where your head will be
-
-You can also *rotate* your play area while touching the trackpad by drawing circles with your thumb.
-
-![warp](https://user-images.githubusercontent.com/68005887/89115953-49ce6700-d4c9-11ea-811b-39a77fc49fe3.jpg)  
-
-#### Changing Scale and Height
-
-It's also possible to change scale and height with this tool, although it's a bit cumbersome at the moment. To do this, hold the trackpad *pressed* before warping. You can now change your future height by moving the Vive controller up and down and your scale by moving back and forth. Note that you can only change one of those two each time.
-
-By pressing the *grip button* you can reset the scale and height.
-
 #### UI/UX abstract on Warp
-By improved UI/UX and leap functions, User can easily move where User want.  
 Tag      |  Move   | 
 ----     | ------  | 
 only one hand needed
-<kbd>menu</kbd>+<kbd>trigger</kbd> | warp in front of chara along User's line of sight
-<kbd>tigger</kbd>+<kbd>1 second</kbd> | impersonate chara along User's line of sight
-<kbd>grip</kbd>+<kbd>trackpad</kbd> | rotate around y-axis (normal)
-<kbd>grip</kbd>+<kbd>trigger</kbd> | rotata around y-axis 
-<kbd>trackpad</kbd> | warp where User wants
-<kbd>grip</kbd>+<kbd>move</kbd> | move where User wants
-<kbd>menu</kbd>+<kbd>holding</kbd> | menu on warp mode
-both hands needed
-<kbd>Grip</kbd>+<kbd>Grip</kbd> | rotate around y-axis (normal)
-<kbd>Grip</kbd>+<kbd>Menu</kbd> | rotate around x-axis (added)
-<kbd>Grip</kbd>+<kbd>trigger</kbd> | rotate around z-axis (added)
-<kbd>Menu</kbd>+<kbd>UpArrow</kbd>+<kbd>trigger</kbd> <br /> <kbd>Menu</kbd>+<kbd>DownArrow</kbd>+<kbd>trigger</kbd> | decrease/increase the distance up to chara on leaping.
+<kbd>menu</kbd>+<kbd>holding</kbd> | display function of each button
+<kbd>trigger</kbd>+<kbd>doubleClicks</kbd> | Koumei Wind (generates wind)
+<kbd>trigger</kbd>+<kbd>holding + moving</kbd> | Koumei Strip (strips cloth of female in front of you)
+<kbd>grip</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze1 (along your sight, chara changes clothes)
+<kbd>grip</kbd>+<kbd>holding + moving</kbd> | Koumei Grab/Touch (grabs and touches breasts, hips, hairs, skirts or items with DynamicBones)
+<kbd>trackpad</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze1 (along your sight, chara changes accessories)
+<kbd>trackpad</kbd>+<kbd>holding + moving</kbd> | Koumei Move (move + rotate)
 
 ### Play Tool (Standing / Seated)
 ![play_tool](https://user-images.githubusercontent.com/68005887/89115805-5ce03780-d4c7-11ea-811d-c2b4ceb54b09.png)  
