@@ -1,28 +1,6 @@
 # VRKoumeiTool
-VRKoumeiTool
 
-﻿# HoneySelect VRmod with LRE & IBL
-
-This mod is for integrating existing VirtualReality HoneySelect mod (VRmod) with Linear Rendering Experiment (LRE) and Image Based Lighting (IBL),
-and adding some improvements. All post-processing effects (from UnityStandardAssets), functions of Camera lens, Skyboxes(Cubemaps) and Lighting functions
-have been able to be used on Honey Select VR environment.
-The main way to use this mod have already been referred on the site of existing each mod.
-If User wants to know about each mod in detail, please see them.
-
-- VRmod
-https://github.com/Eusth/HoneySelectVR
-- LRE & IBL
-https://joan6694.bitbucket.io/
-- IPA
-https://github.com/Eusth/IPA
-- About IBL
-https://www.theschoolofsin.com/ibl-and-image-quality
-- About LRE
-https://docs.unity3d.com/540/Documentation/Manual/LinearLighting.html
-- LRE&IBL Starting Guide
-https://www.patreon.com/posts/meta-body-skin-26688397  
-  
-Thanks very much, these autors!
+This mod is one improving existing Vrboop.dll, which makes grabbing and touching breasts enabled.
 
 ## [Installation]
 1. Extract the zip file into User's HoneySelect directory.
@@ -45,23 +23,13 @@ Thanks very much, these autors!
 - If you using other VR tools as of now except for here, your game might work unproperly. Then reconsider removing other VR tools (${GameFolder}/Plugins/*.dll files etc.).  
 
 ## [Requirements]
-- Game updated with the last patch and DLC installed
-- Installed and set up SteamVR
-- HSExtSave plugin  
-https://joan6694.bitbucket.io/
-
+- Game updated with the last patch and DLC installed.
+- Installed and set up SteamVR.
+- public VRmod (by Eurth) or improved VRmod (one with IBL&LRE made by arthurOmanko). 
 
 ## [Mod Settings]
-- VRmod:  
-  -- ${GameFolder}\vr_settings_for_IBL.xml   --- each VR setting  
-  -- ${GameFolder}\vr_for_IBL.log   --- Log on VR execution
-- IBL:      
-  -- ${GameFolder}\Plugins\HSIBL\Presets_for_VR   --- IBL Preset for VR  
-  -- ${GameFolder}\abdata\plastic\cubemaps   --- IBL cubemaps (common with normal IBL if there is)  
-  -- ${GameFolder}\UserData\modprefs.ini   --- IBL setting on [HSIBLforVR] item. For initial GUI size etc.
-- LRE:      
-  -- ${GameFolder}\UserData\GraphicSetting\Config_for_VR.xml   --- LRE setting for VR
-
+- Setting:      
+  -- ${GameFolder}\Plugins\VRKouemiTool\VRKoumeiToolConfig.xml   --- settings for VRKoumeiTool.dll  
 
 ## Modes & Controls
 
