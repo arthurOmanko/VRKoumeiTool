@@ -32,7 +32,7 @@ These tools are mainly meant to be used in *standing mode* but some of them are 
 ### VRKoumeiTool (seated / standing)
 ![preview](https://user-images.githubusercontent.com/68005887/92324350-d72e4980-f07b-11ea-9ac0-073b22da5fe8.png)
 
-#### UI/UX abstract on Warp
+#### UI/UX abstract on KoumeiTool
 Tag      |  Move   | 
 ----     | ------  | 
 only one hand needed
