@@ -32,29 +32,6 @@ These tools are mainly meant to be used in *standing mode* but some of them are 
 ### VRKoumeiTool (seated / standing)
 ![preview](https://user-images.githubusercontent.com/68005887/92324350-d72e4980-f07b-11ea-9ac0-073b22da5fe8.png)
 
-With the *menu tool* you can interact with the user interface of the game. There are, in fact, two ways you can control the mouse: a two-handed way that makes use of a laser pointer, and a one-handed way that lets you use your trackpad like a ... touchpad!
-
-#### Laser pointer
-![laser_pointer](https://user-images.githubusercontent.com/68005887/89115930-0f64ca00-d4c9-11ea-84d9-7c39582e845a.jpg)  
-
-To use the laser pointer, simply point the *other controller* at the menu screen. A laser pointer will appear and you can easily interact with the UI. To make a click, press the trigger button.
-
-#### Trackpad
-
-To use the trackpad, slide with your thumb over the trackpad and the mouse cursor will move accordingly. To make a click, press the trackpad.
-
-#### Attaching, Detaching and Resizing the Menu
-![scale](https://user-images.githubusercontent.com/68005887/89115937-20154000-d4c9-11ea-96f9-975ffb9da280.jpg)  
-
-
-It's possible to detach and resize the menu you're holding at any point in the game.
-
-Simply press the grip button to "let go" of the menu screen -- the screen will then stay put where you left it. You can even use other tools and still interact with the screen using the *laser pointer* mechanism.
-
-Furthermore, it's possible to *resize* the screen. In order to do that, point both your controllers at a screen, press the trigger button, and move the controllers apart. It's also possible to move the screen around like this.
-
-Lastly, to take control of the screen again, press the grip button once more.
-
 #### UI/UX abstract on Menu
 Tag      |  Move   | 
 ----     | ------  | 
