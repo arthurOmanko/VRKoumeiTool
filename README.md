@@ -145,16 +145,3 @@ Tag      | Default | Effect | Mode
 `<GrabRotationImmediateMode>` | true | Determines the rotation mode. If enabled, pulling the trigger while grabbing will immediately rotate you. When disabled, doing the same thing will let you 'drag' the view. | Standing
  `<DefaultDistanceOfLeap>` | 0.5 | Default distance up to chara on leaping. | Standing
  `<SpeedOfMouseWheel>` | 3 | speed of mouse wheel on PlayTool | Seated / Standing
-
-## Building HoneySelectVR
-
-HoneySelectVR depends on the [VRGIN](https://github.com/Eusth/VRGIN) library which is included as a submodule. It is therefore important that when you clone the project, you clone it recursively.
-
-```
-git clone --recursive https://github.com/Eusth/HoneySelectVR.git
-cd HoneySelectVR
-```
-
-After cloning the repo and setting up the submodule, you should be able to compile the project by simply opening the *.sln file and building.
-
-Note that there is a build configuration called "Install" that will extract your Honey Select Trial install directory from the registry and copy the files where they belong. 
