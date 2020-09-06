@@ -69,7 +69,7 @@ Tag      | Default | Effect |
 `<GrabRadius>` | 0.15 | The effective range of grabbing.
 `<FixVrLightning>` | true | Whether or not using Light Color Tool on VR.
 `<PleasureForceMin>` | 0.1 | The minimum of strength of grabbing for going finishing.
-`<BreastPleasure>` | 0.0005 | The rate of increasing of pleasure on grabbing.
+`<BreastPleasure>` | 0.0005 | The rate of increasing of pleasure on grabbing. On breasts or hips, effective.
 `<WindStrength>` | 1 | The strength of wind.
 `<WindDuration>` | 0.8 | The duration of wind. Bigger, more duration. [0 .. 0.999]
 `<StripForce>` | 0.005 | The needed speed of VR controllers for stripping cloth.
