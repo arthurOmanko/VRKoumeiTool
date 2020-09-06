@@ -58,11 +58,11 @@ only one hand needed
 ## Settings & Tweaks
 
 Settings can be changed in the file *VRKoumeiToolConfig.xml*, which is generated the first time you start the game.  
-Tag      | Default | Effect | Mode
-----     | ------  | ------ | ----
-`<Distance>` | 0.1 | Sets the distance between the camera and the GUI at `[0,0,0]`. | Seated
-`<Angle>` | 170 | Sets the width of the arc the GUI takes up.  | Seated
-`<IPDScale>` | 0.83 | Sets the scale of the camera. The higher, the more gigantic the player is. | Seated / Standing
+Tag      | Default | Effect |
+----     | ------  | ------ |
+`<HandScale>` | 1,1,1 | The size of VR controllers.
+`<VelocityBufferSize>` | 5 | The buffer for speed calculation of VR controllers. Bigger, more proper.
+`<Damping>` | 0.2 | The inverse of speed of return from bones changing. Smaller, more speedy.
 `<OffsetY>` | 0 | Sets the vertical offset of the GUI in meters. | Seated
 `<Rotation>` | 0 | Sets by how many degrees the GUI is rotated (around the y / up axis) | Seated
 `<Rumble>` | True | Sets whether or not rumble is activated. | Seated / Standing
