@@ -30,7 +30,7 @@ These tools are mainly meant to be used in *standing mode* but some of them are 
 **You can get in-game help any time by holding the menu button!**
 
 ### Menu Tool (seated / standing)
-![menu_tool](https://user-images.githubusercontent.com/68005887/89115910-d62c5a00-d4c8-11ea-8fe4-e96d8b8173ba.png)  
+![preview](https://user-images.githubusercontent.com/68005887/92324350-d72e4980-f07b-11ea-9ac0-073b22da5fe8.png)
 
 With the *menu tool* you can interact with the user interface of the game. There are, in fact, two ways you can control the mouse: a two-handed way that makes use of a laser pointer, and a one-handed way that lets you use your trackpad like a ... touchpad!
 
