@@ -45,6 +45,7 @@ only one hand needed
 <kbd>trackpad</kbd>+<kbd>holding + moving</kbd> | Koumei Move (move + rotate)
 
 ### ChageLightColorTool (Standing / Seated)
+![lightColor](https://user-images.githubusercontent.com/68005887/92324643-a996cf80-f07e-11ea-9c67-c6039d60e73d.png)
 
 #### UI/UX abstract on ChangeLightColor
 Tag      |  Move   | 
@@ -59,8 +60,7 @@ only one hand needed
 
 ## Settings & Tweaks
 
-Settings can be changed in the file *vr_settings_for_IBL.xml*, which is generated the first time you start the game. Use `RenderScale` to tweak the resolution, **not** the internal resolution dialog, as that one will currently only change the resolution of the GUI.
-
+Settings can be changed in the file *VRKoumeiToolConfig.xml*, which is generated the first time you start the game.  
 Tag      | Default | Effect | Mode
 ----     | ------  | ------ | ----
 `<Distance>` | 0.1 | Sets the distance between the camera and the GUI at `[0,0,0]`. | Seated
