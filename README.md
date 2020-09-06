@@ -1,6 +1,6 @@
 # VRKoumeiTool
 
-This mod is one improving existing Vrboop.dll, which makes grabbing and touching breasts enabled.
+This mod is one improving existing Vrboop.dll, which makes grabbing and touching breasts enabled on VR.
 
 ## [Installation]
 1. Extract the zip file into User's HoneySelect directory.
