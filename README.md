@@ -51,12 +51,9 @@ only one hand needed
 Tag      |  Move   | 
 ----     | ------  | 
 only one hand needed
-<kbd>trigger</kbd>+<kbd>DoubleClicks</kbd> | FinishIn or Drink
-<kbd>grip</kbd>+<kbd>DoubleClicks</kbd> | Both Gone or Vomit
-<kbd>trackpad</kbd>+<kbd>DoubleClicks</kbd> | FinishOut
-<kbd>trackpad</kbd>+<kbd>trigger</kbd> | I'm coming!
-<kbd>trackpad</kbd>+<kbd>slide along y-axis</kbd> | Change piston speed, Go In/Out, etc.
-<kbd>menu</kbd> | display each fuction
+<kbd>trackpad</kbd>+<kbd>holding + moving</kbd> | Change colors of front directional light
+<kbd>trigger holding</kbd>+<kbd>trackpad</kbd>+<kbd>holding + moving</kbd> | Change colors of back directional light
+<kbd>menu</kbd>+<kbd>holding</kbd> | display each fuction
 
 ## Settings & Tweaks
 
