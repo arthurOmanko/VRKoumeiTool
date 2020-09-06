@@ -10,16 +10,6 @@ This mod is one improving existing Vrboop.dll, which makes grabbing and touching
 **Caution!** 
 - This mod might rewrite some existing files and cause some bugs depending on User's environment.
   Please back up Game root folder before installing necessarily.
-- This mod has no internet connections at all. If User encounters any Firewall problem, it would be by original Game. All origianl codes before changing are from authors cited above and the provider has added no codes about outgoing connections. However if you see documents on web from clicking on IBL GUI, the limitation shall not be applied to.
-- This mod will often have heavy loads on memory especially, so User might get freezed or encounter PC crashes on VR execution. 
-  In the case, User can decrease the number of post-processing effects or also have no effects (ApplyShaders = false).
-  Please be careful to avoid any probelm caused by the case.
-- Chara texture will get weird on Title, (enabling/disabling) self shadow, switching (seated/standing) mode, applying shader (as long as known as of now).
-  The provider doesnt know about this reason very sorry. If User encounters this problem, initialize scene or chara.
-  Until quitting Application , it will not happen twice. 
-- Whether or not User has already installed noraml IBL or LRE, this mod works only on VR execution(command option = "--vr") not depending on it. Normal IBL&LRE are separeted from IBL&LRE of this mod during Application execution, so both dont influence with each other.   
-- ${***_(64|32)_Data}\Managed\IllusionInjector.dll in this mod controlls this mod's LRE&IBL on VR. If User changes this DLL, on VR execution User might encounter any bugs. Use the DLL and this mod's LRE&IBL together. 
-- User had not better display any other windows except for this Game window on PC Screen. If cursor on other windows, controllers might not get reactive. Cursor-confined function on Game window is a little irregular yet.
 - If you using other VR tools as of now except for here, your game might work unproperly. Then reconsider removing other VR tools (${GameFolder}/Plugins/*.dll files etc.).  
 
 ## [Requirements]
@@ -32,61 +22,6 @@ This mod is one improving existing Vrboop.dll, which makes grabbing and touching
   -- ${GameFolder}\Plugins\VRKouemiTool\VRKoumeiToolConfig.xml   --- settings for VRKoumeiTool.dll  
 
 ## Modes & Controls
-
-HoneySelectVR comes in two *modes*:
-
-| Mode        | Description         |
-| ----------- | ------------------- |
-| Seated      | *Default mode.* This mode lets you play the game with a mouse, keyboard, or gamepad.<br />The controls are essentially the same as in the main game. The screen is presented on a big monitor in front of you. |
-| Standing    | As soon as tracked controllers are registered by the game, it switches into *standing mode*, also called *room scale mode*. In this mode, you can freely move around and use your Vive or Touch controllers to stuff. |
-
-### Common Mode
-On both Seated and Standing Mode, same shortcuts would be used.
-
-#### Keyboard Shortcuts
-
-Keys &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          | Effect
-:------------:  | ------
-<kbd>F5</kbd> | GUI of IBL on/off
-<kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>C</kbd> | Change to Standing/Seated mode.
-<kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>V</kbd> | Enable (very experimental) third person camera. [Was used for this video](https://www.youtube.com/watch?v=0klN6gd1ybM). If get on, this makes a Camera Box at (0, 0, 0) which User can grab and put where User hope. The display of the camera gets displayed on User's PC screen. Very interesting!
-<kbd>Alt</kbd>+<kbd>S</kbd> | Save settings (IPD, screen position, etc.).
-<kbd>Alt</kbd>+<kbd>L</kbd> | Load settings (last saved state).
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> | Reset settings to the initial state.
-<kbd>Ctrl</kbd>+<kbd>F5</kbd> | Apply shaders (Post-processing Effects get applied (such as SSAO, ToneMapping, Color Grading etc.))
-<kbd>Alt</kbd>+<kbd>NumPad +</kbd> <br /> <kbd>Alt</kbd>+<kbd>NumPad –</kbd> | Increase / decrease player scale
-<kbd>Ctrl</kbd>+<kbd>F12</kbd> | 360 Panorama Capture on VR. (=> ${GameFolder}\UserData\cap)
-<kbd>Ctrl</kbd>+<kbd>Q</kbd> | Toggle fixing of Field of View for Camera (on IBL lens item). If want full functions of lens on IBL, unfix by toggle. 
-<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>C</kbd> | Most GUI Default textures get changed from transparent into opaque to improve UI/UX usability. Do this when IBL GUI on.
-<kbd>Shift</kbd>+<kbd>UpArrow</kbd> <br /> <kbd>Shift</kbd>+<kbd>DownArrow</kbd> | Increse / decrease the size of Buttons on GUI. (To avoid disapperance of Buttons depending on the resolution of screen, on StudioNEO especially).
-
-### Seated Mode
-
-As stated earlier, the controls are basically the same as in the main game with the exception of a few VR-related shortcuts. You are presented with a screen in front of your that replaces your monitor and can be configured via the settings or via shortcuts (see below).
-
-#### Keyboard Shortcuts
-
-Keys &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      | Effect
-:----:     | ------
-<kbd>F4</kbd> | Switch GUI projection mode (flat, curved, spherical).
-<kbd>F7</kbd> | Toggle camera lock (disabled by default). This prevents the camera to *tilt* because such movements are known to cause cyber sickness.
-<kbd>F12</kbd> | Recenter
-<kbd>NumPad +</kbd> <br /> <kbd>NumPad –</kbd> | Move GUI up / down.
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>NumPad +</kbd> <br /> <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>NumPad –</kbd> | Move GUI left / right
-<kbd>Ctrl</kbd>+<kbd>NumPad +</kbd> <br /> <kbd>Ctrl</kbd>+<kbd>NumPad –</kbd> | Increase / decrease GUI size.
-<kbd>Shift</kbd>+<kbd>NumPad +</kbd> <br /> <kbd>Shift</kbd>+<kbd>NumPad –</kbd> | Increase / decrease GUI distance
-<kbd>Ctrl</kbd>+<kbd>X</kbd> | Impersonate a chara Approximately along User's line of sight (not matching in regar with height)
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> | Impersonate a chara Exactly along User's line of sight (matching all x, y, z position)
-
-### Standing Mode
-
-The *standing mode* is where things start to get interesting. This mode is pretty much disconnected from the usual game in that it comes with its very own controls -- although you can still use your mouse and your keyboard.
-
-#### Keyboard Shortcuts
-
-Keys      | Effect
-----      | ------
-
 
 ## Tools
 
