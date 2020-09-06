@@ -15,7 +15,7 @@ This mod is one improving existing Vrboop.dll, which makes grabbing and touching
 ## [Requirements]
 - Game updated with the last patch and DLC installed.
 - Installed and set up SteamVR.
-- public VRmod (by Eurth) or improved VRmod (one with IBL&LRE made by arthurOmanko). 
+- public HoneySelect VRmod (by Eurth) or improved HoneySelect VRmod (one with IBL&LRE made by arthurOmanko). 
 
 ## [Mod Settings]
 - Setting:      
