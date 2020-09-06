@@ -38,7 +38,7 @@ Tag      |  Move   |
 only one hand needed
 <kbd>menu</kbd>+<kbd>holding</kbd> | display function of each button
 <kbd>trigger</kbd>+<kbd>doubleClicks</kbd> | Koumei Wind (generates wind)
-<kbd>trigger</kbd>+<kbd>holding + moving</kbd> | Koumei Strip (strips cloth of female in front of you)
+<kbd>trigger</kbd>+<kbd>holding + moving</kbd> | Koumei Strip (strips cloth of female in front of you. probably now only on StudioNeo)
 <kbd>grip</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze1 (along your sight, chara changes clothes)
 <kbd>grip</kbd>+<kbd>holding + moving</kbd> | Koumei Grab/Touch (grabs and touches breasts, hips, hairs, skirts or items with DynamicBones)
 <kbd>trackpad</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze1 (along your sight, chara changes accessories)
