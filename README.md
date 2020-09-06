@@ -41,7 +41,7 @@ only one hand needed
 <kbd>trigger</kbd>+<kbd>holding + moving</kbd> | Koumei Strip (strips cloth of female in front of you. probably now only on StudioNeo)
 <kbd>grip</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze1 (along your sight, chara changes clothes)
 <kbd>grip</kbd>+<kbd>holding + moving</kbd> | Koumei Grab/Touch (grabs and touches breasts, hips, hairs, skirts or items with DynamicBones)
-<kbd>trackpad</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze1 (along your sight, chara changes accessories)
+<kbd>trackpad</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze2 (along your sight, chara changes accessories)
 <kbd>trackpad</kbd>+<kbd>holding + moving</kbd> | Koumei Move (move + rotate)
 
 ### ChageLightColorTool (Standing / Seated)
@@ -63,18 +63,17 @@ Tag      | Default | Effect |
 `<HandScale>` | 1,1,1 | The size of VR controllers.
 `<VelocityBufferSize>` | 5 | The buffer for speed calculation of VR controllers. Bigger, more proper.
 `<Damping>` | 0.2 | The inverse of speed of return from bones changing. Smaller, more speedy.
-`<OffsetY>` | 0 | Sets the vertical offset of the GUI in meters. | Seated
-`<Rotation>` | 0 | Sets by how many degrees the GUI is rotated (around the y / up axis) | Seated
-`<Rumble>` | True | Sets whether or not rumble is activated. | Seated / Standing
-`<RenderScale>` | 1 | Sets the render scale of the renderer. Increase for better quality but less performance, decrease for more performance but poor quality. | Seated / Standing
-`<MirrorScreen>` | False | Sets whether or not the view should be mirrored in the game window. | Seated / Standing
-`<ApplyShaders>` | true | Sets whether or not post-processing shaders should automatically be applied to the camera. | Seated / Standing
-`<NearClip>` | 0.01 | Within this distance, seen chara gets transparent. | Seated / Standing
-`<PitchLock>` | false | Whether or not can rotate on all axises (unlocked = false) | Seated
-`<Projection>` | flat | The appearance of GUI seen | Seated
-`<SpeechRecognition>` | false | Whether or not speech recognition is enabled. | Seated / Standing
-`<RotationMultiplier>` | 2.5 | Accelaration of rotation | Seated / Standing
-`<Leap>` | true | Whether or not Leap Motion support is activated. | Standing 
-`<GrabRotationImmediateMode>` | true | Determines the rotation mode. If enabled, pulling the trigger while grabbing will immediately rotate you. When disabled, doing the same thing will let you 'drag' the view. | Standing
- `<DefaultDistanceOfLeap>` | 0.5 | Default distance up to chara on leaping. | Standing
- `<SpeedOfMouseWheel>` | 3 | speed of mouse wheel on PlayTool | Seated / Standing
+`<GrabDampingDivisor>` | 16 | The speed of return from bones changing when grabbing. Bigger, more speedy.
+`<GrabForceMultiplikator>` | 8 | The strength of grabbing. Bigger, stronger.
+`<TouchRadius>` | 0.1 | The effective range of touching.
+`<GrabRadius>` | 0.15 | The effective range of grabbing.
+`<FixVrLightning>` | true | Whether or not using Light Color Tool on VR.
+`<PleasureForceMin>` | 0.1 | The minimum of strength of grabbing for going finishing.
+`<BreastPleasure>` | 0.0005 | The rate of increasing of pleasure on grabbing.
+`<WindStrength>` | 1 | The strength of wind.
+`<WindDuration>` | 0.8 | The duration of wind. Bigger, more duration. [0 .. 0.999]
+`<StripForce>` | 0.005 | The needed speed of VR controllers for stripping cloth.
+`<StripRadius>` | 0.15 | The maximum of needed range for stripping cloth.
+`<HasRumbling>` | true | Whether or not rumbling when touching. 'Rumble = true' setting needed in VRGIN Setting.
+`<RumbleRadius>` | 0.07 | The effective range of rumbling when touching.
+ 
