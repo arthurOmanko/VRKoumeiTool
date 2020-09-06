@@ -4,7 +4,7 @@ This mod is one improving existing Vrboop.dll, which makes grabbing and touching
 
 ## [Installation]
 1. Extract the zip file into User's HoneySelect directory.
-2. Run your Game execution file with "--vr" optino. 
+2. Run your Game execution file with "--vr" option. 
 3. Enjoy new functions on VR!
 
 **Caution!** 
