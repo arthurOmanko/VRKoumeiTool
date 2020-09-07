@@ -48,7 +48,7 @@ only one hand needed
 <kbd>trigger</kbd>+<kbd>doubleClicks</kbd> | Koumei Wind (generates wind)
 <kbd>trigger</kbd>+<kbd>holding + moving</kbd> | Koumei Strip (strips cloth of female in front of you.)
 <kbd>grip</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze1 (along your sight, chara changes clothes)
-<kbd>grip</kbd>+<kbd>holding + moving</kbd> | Koumei Grab/Touch (grabs and touches breasts, hips, hairs, skirts or items with DynamicBones). This functions can be used on other Tools.
+<kbd>grip</kbd>+<kbd>holding + moving</kbd> | Koumei Grab/Touch (grabs and touches breasts, hips, hairs, skirts or items with DynamicBones etc.). This functions can also be used on other Tools.
 <kbd>trackpad</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze2 (along your sight, chara changes accessories)
 <kbd>trackpad</kbd>+<kbd>holding + moving</kbd> | Koumei Move (move + rotate)
 
