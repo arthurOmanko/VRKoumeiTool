@@ -59,8 +59,8 @@ only one hand needed
 Tag      |  Move   | 
 ----     | ------  | 
 only one hand needed
-<kbd>trackpad</kbd>+<kbd>holding + moving</kbd> | Change colors of front directional light
-<kbd>trigger holding</kbd>+<kbd>trackpad</kbd>+<kbd>holding + moving</kbd> | Change colors of back directional light
+<kbd>trackpad</kbd>+<kbd>holding + moving</kbd> | Change intensity or colors of front directional light
+<kbd>trigger holding</kbd>+<kbd>trackpad</kbd>+<kbd>holding + moving</kbd> | Change intensity or colors of back directional light
 <kbd>menu</kbd>+<kbd>holding</kbd> | display each fuction
 
 ## Settings & Tweaks
