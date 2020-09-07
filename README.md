@@ -17,7 +17,7 @@ This functions on VR controllers are as below,
 **Caution!** 
 - This mod might rewrite some existing files and cause some bugs depending on User's environment.
   Please back up Game root folder before installing necessarily.
-- I dont know you can or cant use this mod on StudioNeo. But if you use improved HoneySelect VRmod (one with IBL&LRE made by arthurOmanko), you would be able to use this mod on StudioNeo.  
+- I dont know you can or cant use this mod on StudioNeo. But if you use improved HoneySelect VRmod (one integrating IBL&LRE made by arthurOmanko), you would be able to use this mod on StudioNeo.  
 - If you using other VR tools as of now except for here, your game might work unproperly. Then reconsider removing other VR tools (${GameFolder}/Plugins/*.dll files etc.).  
 
 ## [Requirements]
