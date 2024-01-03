@@ -8,6 +8,7 @@ This functions on VR controllers are as below,
 - change chara's clothes or accessories along your sight
 - strip female's cloth
 - change lights color
+- move with controller
 
 ## [Installation]
 1. Extract the zip file into User's HoneySelect directory.
@@ -51,6 +52,7 @@ only one hand needed
 <kbd>grip</kbd>+<kbd>holding + moving</kbd> | Koumei Grab/Touch (grabs and touches breasts, hips, hairs, skirts or items with DynamicBones etc.). This functions can also be used on other Tools.
 <kbd>trackpad</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze2 (along your sight, chara changes accessories)
 <kbd>trackpad</kbd>+<kbd>holding + moving</kbd> | Koumei Move (move + rotate)
+<kbd>trigger</kbd>+<kbd>grip</kbd>+<kbd>menu</kbd>+<kbd>0.5s</kbd> | All axes rotaion on/off
 
 ### ChageLightColorTool (Standing / Seated)
 ![lightColor](https://user-images.githubusercontent.com/68005887/92324643-a996cf80-f07e-11ea-9c67-c6039d60e73d.png)
@@ -78,8 +80,8 @@ Tag      | Default | Effect |
 `<FixVrLightning>` | true | Whether or not using Light Color Tool on VR.
 `<PleasureForceMin>` | 0.1 | The minimum of strength of grabbing for going finishing.
 `<BreastPleasure>` | 0.0005 | The rate of increasing of pleasure on grabbing. On breasts or hips, effective.
-`<WindStrength>` | 1 | The strength of wind.
-`<WindDuration>` | 0.8 | The duration of wind. Bigger, more duration. [0 .. 0.999]
+`<WindStrength>` | 0.012 | The strength of wind.
+`<WindDuration>` | 0.94 | The duration of wind. Bigger, more duration. [0 .. 0.999]
 `<StripForce>` | 0.005 | The needed speed of VR controllers for stripping cloth.
 `<StripRadius>` | 0.15 | The maximum of needed range for stripping cloth.
 `<HasRumbling>` | true | Whether or not rumbling when touching. 'Rumble = true' setting needed in VRGIN Setting.
