@@ -81,7 +81,7 @@ Tag      | Default | Effect |
 `<PleasureForceMin>` | 0.1 | The minimum of strength of grabbing for going finishing.
 `<BreastPleasure>` | 0.0005 | The rate of increasing of pleasure on grabbing. On breasts or hips, effective.
 `<WindStrength>` | 0.012 | The strength of wind.
-`<WindDuration>` | 0.94 | The duration of wind. Bigger, more duration. [0 .. 0.999]
+`<WindDuration>` | 0.94 | The duration of wind. Bigger, more duration. [0 .. 0.99999]
 `<StripForce>` | 0.005 | The needed speed of VR controllers for stripping cloth.
 `<StripRadius>` | 0.15 | The maximum of needed range for stripping cloth.
 `<HasRumbling>` | true | Whether or not rumbling when touching. 'Rumble = true' setting needed in VRGIN Setting.
