@@ -52,7 +52,7 @@ only one hand needed
 <kbd>grip</kbd>+<kbd>holding + moving</kbd> | Koumei Grab/Touch (grabs and touches breasts, hips, hairs, skirts or items with DynamicBones etc.). This functions can also be used on other Tools.
 <kbd>trackpad</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze2 (along your sight, chara changes accessories)
 <kbd>trackpad</kbd>+<kbd>holding + moving</kbd> | Koumei Move (move + rotate)
-<kbd>trigger</kbd>+<kbd>grip</kbd>+<kbd>menu</kbd>+<kbd>0.5s</kbd> | All axes rotaion on/off
+<kbd>trigger</kbd>+<kbd>grip</kbd>+<kbd>menu</kbd>+<kbd>0.5s</kbd> | All axes rotaion on/off when moving
 
 ### ChageLightColorTool (Standing / Seated)
 ![lightColor](https://user-images.githubusercontent.com/68005887/92324643-a996cf80-f07e-11ea-9c67-c6039d60e73d.png)
