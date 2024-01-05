@@ -27,7 +27,7 @@ This functions on VR controllers are as below,
 - public HoneySelect VRmod (by Eusth) or improved HoneySelect VRmod (one integrating IBL&LRE made by arthurOmanko). 
 
 ## [Uninstall]
-Please remove VRKoumeiTool.dll in (${GameFolder}\Plugins).
+Please remove VRKoumeiTool.dll and VRKoumeiTool directory in (${GameFolder}\Plugins).
 
 ## [Mod Settings]
 - Setting:      
