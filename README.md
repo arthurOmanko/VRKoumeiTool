@@ -24,7 +24,8 @@ This functions on VR controllers are as below,
 ## [Requirements]
 - Game updated with the last patch and DLC installed.
 - Installed and set up SteamVR.
-- public HoneySelect VRmod (by Eusth) or improved HoneySelect VRmod (one integrating IBL&LRE made by arthurOmanko). 
+- public HoneySelect VRmod (by Eusth) or improved HoneySelect VRmod (one integrating IBL&LRE made by arthurOmanko).
+- ${GameFolder}\Plugins\0Harmony.dll
 
 ## [Uninstall]
 Please remove VRKoumeiTool.dll and VRKoumeiTool directory in (${GameFolder}\Plugins).
