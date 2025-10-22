@@ -1,5 +1,7 @@
 # VRKoumeiTool
 
+***(<ins>Updated items since previous version getting underline characters</ins>)***
+
 This mod is one improving existing Vrboop.dll which makes grabbing and touching breasts of females enabled on VR.
 This functions on VR controllers are as below,
 - Generate Wind
@@ -78,16 +80,16 @@ Tag      | Default | Effect |
 `<VelocityBufferSize>` | 5 | The buffer for speed calculation of VR controllers. Bigger, more proper.
 `<Damping>` | 0.2 | The inverse of speed of return from bones changing. Smaller, more speedy.
 `<GrabDampingDivisor>` | 16 | The speed of return from bones changing when grabbing. Bigger, more speedy.
-`<GrabForceMultiplikator>` | 8 | The strength of grabbing. Bigger, stronger.
+`<GrabForceMultiplikator>` | ***<ins>16</ins>*** | The strength of grabbing. Bigger, stronger.
 `<TouchRadius>` | 0.1 | The effective range of touching.
-`<GrabRadius>` | 0.15 | The effective range of grabbing.
+`<GrabRadius>` | ***<ins>0.1</ins>*** | The effective range of grabbing.
 `<FixVrLightning>` | true | Whether or not using Light Color Tool on VR.
 `<PleasureForceMin>` | 0.1 | The minimum of strength of grabbing for going finishing.
-`<BreastPleasure>` | 0.0005 | The rate of increasing of pleasure on grabbing. On breasts or hips, effective.
+`<BreastPleasure>` | ***<ins>0.005</ins>*** | The rate of increasing of pleasure on grabbing. On breasts or hips, effective.
 `<WindStrength>` | 0.012 | The strength of wind.
 `<WindDuration>` | 0.94 | The duration of wind. Bigger, more duration. [0 .. 0.99999]
 `<StripForce>` | 0.005 | The needed speed of VR controllers for stripping cloth.
 `<StripRadius>` | 0.15 | The maximum of needed range for stripping cloth.
 `<HasRumbling>` | true | Whether or not rumbling when touching. 'Rumble = true' setting needed in VRGIN Setting.
-`<RumbleRadius>` | 0.07 | The effective range of rumbling when touching.
+`<RumbleRadius>` | ***<ins>0.1</ins>*** | The effective range of rumbling when touching.
  
