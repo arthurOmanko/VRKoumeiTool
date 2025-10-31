@@ -8,7 +8,7 @@ This functions on VR controllers are as below,
 - grabbing and touching breasts, hips, hairs, skirts or items with dynamicBones etc.
 - rumbling on grabbing and touching breasts or hips
 - change chara's clothes or accessories along your sight
-- strip female's cloth at respective parts of body
+- strip female's cloth ***<ins>at respective parts of body</ins>***
 - change lights color
 - move with controller
 
@@ -53,7 +53,7 @@ Tag      |  Move   |
 only one hand needed
 <kbd>menu</kbd>+<kbd>holding</kbd> | display function of each button
 <kbd>trigger</kbd>+<kbd>doubleClicks</kbd> | Koumei Wind (generates wind)
-<kbd>trigger</kbd>+<kbd>holding + moving</kbd> | Koumei Strip (strips cloth of female (at respective parts of body) in front of you.)
+<kbd>trigger</kbd>+<kbd>holding + moving</kbd> | Koumei Strip (strips cloth of female ***<ins>(at respective parts of body)</ins>*** in front of you.)
 <kbd>grip</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze1 (along your sight, chara changes clothes)
 <kbd>grip</kbd>+<kbd>holding + moving</kbd> | Koumei Grab/Touch (grabs and touches breasts, hips, hairs, skirts or items with DynamicBones etc.). This functions can also be used on other Tools.
 <kbd>trackpad</kbd>+<kbd>doubleClicks</kbd> | Koumei Gaze2 (along your sight, chara changes accessories)
